@@ -17,6 +17,7 @@ It is designed to make daily usage simple: connect to your server, check active 
 - send prompts (and `/commands`) directly from the chat input
 - stop running work when necessary
 - play completion feedback sound when a running session finishes
+- switch UI language between English, Italian, and Traditional Chinese
 
 ## Technology Stack
 
@@ -24,6 +25,7 @@ It is designed to make daily usage simple: connect to your server, check active 
 - mobile packaging: Capacitor (Android APK)
 - networking: OpenCode HTTP API (`/global/health`, `/session/*`, `/command`)
 - CI/CD: GitHub Actions for cloud APK builds
+- i18n: lightweight custom i18n module with English, Italian, and Traditional Chinese
 
 ## OpenCode Server Setup
 
